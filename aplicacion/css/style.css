@@ -1,0 +1,174 @@
+.welcome-message {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #d3e9df;
+  border-radius: 5px;
+}
+
+.tarjeta_compra {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fffffa;
+  box-shadow: 0 0 4px rgb(255, 187, 0), 0 0 4px rgb(255, 187, 0), 0 0 4px rgb(255, 187, 0), 0 0 4px rgb(255, 187, 0), 0 0 4px rgb(255, 187, 0), 0 0 4px rgb(255, 187, 0), 0 0 4px rgb(255, 187, 0);
+}
+
+.tarjetacompra2 {
+  margin: 30px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  min-height: 55%;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgb(31, 6, 119), 0 0 4px rgb(31, 6, 119), 0 0 4px rgb(31, 6, 119), 0 0 4px rgb(31, 6, 119), 0 0 4px rgb(31, 6, 119), 0 0 4px rgb(31, 6, 119), 0 0 4px rgb(31, 6, 119);
+  background: linear-gradient(to right, #e9f9ff,
+      #bcffe9, #e9f9ff);
+  background-size: 400% 400%;
+  animation: animate-background 10s infinite ease-in-out;
+}
+
+@keyframes animate-background {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.tiempoDeEspera {
+  max-width: 22%;
+  max-width: 22%;
+}
+
+
+#footer .footer-top .footer-contact h3 {
+  font-size: 28px;
+  margin: 0 0 10px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #78068f;
+}
+
+#footer .footer-top .footer-contact p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Jost", sans-serif;
+}
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 12px;
+  color: blue;
+}
+
+#footer .footer-top p {
+  color: black;
+  text-align: justify
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+  color: black;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  text-decoration: none;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #0ac074;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  color: white;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #d82020;
+  color: #ebebeb;
+  text-decoration: none;
+}
+
+#footer .footer-bottom {
+  padding-top: 30px;
+  padding-bottom: 3px;
+  color: #fff;
+}
+
+#footer .copyright {
+  float: left;
+}
+
+#footer .credits {
+  float: right;
+  font-size: 13px;
+}
+
+#footer .credits a {
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  #footer .footer-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #footer .copyright,
+  #footer .credits {
+    text-align: center;
+    float: none;
+  }
+
+  #footer .credits {
+    padding-top: 4px;
+  }
+}
